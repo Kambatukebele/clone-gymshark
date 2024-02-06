@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "dev": "shopify theme dev -e gym",
+    "watch": "vite build --watch"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.34",
+    "tailwindcss": "^3.4.1",
+    "tailwindcss-rem-to-px": "^0.1.0",
+    "vite": "^5.0.12"
+  }
+}
