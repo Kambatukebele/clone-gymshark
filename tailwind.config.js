@@ -3,7 +3,12 @@ import remToPxPlugin from "tailwindcss-rem-to-px";
 export default {
   content: ["./**/*.{js,json,liquid}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        roboto: ["Roboto", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
+      },
+    },
   },
   plugins: [
     remToPxPlugin({
