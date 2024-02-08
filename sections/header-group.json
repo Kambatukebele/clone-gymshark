@@ -13,9 +13,7 @@
           }
         }
       },
-      "block_order": [
-        "announcement-bar-0"
-      ],
+      "block_order": ["announcement-bar-0"],
       "settings": {
         "color_scheme": "scheme-1",
         "show_line_separator": true,
@@ -45,8 +43,5 @@
       }
     }
   },
-  "order": [
-    "announcement-bar",
-    "header"
-  ]
+  "order": ["header", "announcement-bar"]
 }
